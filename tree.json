@@ -1,1 +1,251 @@
-[{"name": "Avatar: The Way of Water", "link": "https://www.google.com/search?hl=en&gl=us&q=Avatar:+The+Way+of+Water&si=AC1wQDCHMNb11Be-qDAVcFX0l-0KTBmShF1fPy2iMfje2H81obB3AnNANbLYGbEVe4OtBIUmDVXNsduczSPx8frfBoCmoryeOK0W9WxlFgp0-uEpFbJpgwrchRf-s5GsKcmiHdujRlaKZluw5Ou2-Ye1umAHl3EqmIJabBXw6KP53wzkveA472U%3D&sa=X&ved=2ahUKEwiWx9Onz_z7AhVkQzABHerCBxwQxyZ6BAgYEBM", "showing": [{"time": ["4:45 pm", "5:15 pm", "6:00 pm", "6:15 pm", "7:00 pm", "8:30 pm", "9:00 pm", "9:30 pm", "10:15 pm", "10:30 pm", "11:15 pm"], "type": "Standard"}, {"time": ["7:15 pm", "11:30 pm"], "type": "IMAX 3D"}, {"time": ["4:30 pm", "5:00 pm", "5:45 pm", "6:30 pm", "7:30 pm", "8:00 pm", "8:45 pm", "9:15 pm", "10:00 pm", "10:45 pm"], "type": "3D"}, {"time": ["8:15 pm", "12:01 am"], "type": "3D DBOX"}, {"time": ["7:45 pm"], "type": "DBOX"}]}, {"name": "Violent Night", "link": "https://www.google.com/search?hl=en&gl=us&q=Violent+Night&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukGB685d0MQDKFqujad3T9n6Bq8vvH6YvdwZ5_QwEyQhGb1AmOCRlTJBLqCt5l7Hm5_EYvAmxxIeiMlyWxlsK1sTpprR9ONGGIXDteERub8PHkjIzVI2ueTN7BtHYqGVkGFlE7bI%3D&sa=X&ved=2ahUKEwiWx9Onz_z7AhVkQzABHerCBxwQxyZ6BAgYEDQ", "showing": [{"time": ["4:35 pm", "7:25 pm", "10:10 pm", "11:45 pm"], "type": "Standard"}]}, {"name": "Empire of Light", "link": "https://www.google.com/search?hl=en&gl=us&q=Empire+of+Light&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukOrqTmjjJKF-P8QauX-bXSt-WncEh7sGXqr2I_1Ba65XykF1EY6XYnpUDAIKRdSfOVe6HMA7wj_K6uUJeenRx9Dx3ImzgXJiZcC2ZsDxLGMV3C-4uILFJvR_KHX2KqU7IgCmz-M%3D", "showing": [{"time": ["5:05 pm", "7:55 pm", "10:50 pm"], "type": "Standard"}]}, {"name": "The Menu", "link": "https://www.google.com/search?hl=en&gl=us&q=The+Menu&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukPJ7Oz3WZEDpKjcC3cHAWS8lBRqvm2YXMqomUe2JXpJPyNeFaxuOzbWQptPhOldReZnqDtXOMhev6zeM4lHHuSGG-uJwUQycFcX9-Kijllb8-0s4FPgefIkD5o8Z6ugwdu8PfUY%3D", "showing": [{"time": ["7:10 pm", "9:55 pm", "11:40 pm"], "type": "Standard"}]}, {"name": "Strange World", "link": "https://www.google.com/search?hl=en&gl=us&q=Strange+World&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukHBVaZngomj5V8u0KBxgy2ljRmux8ZG-tNSmKw_4XRNPhIxCTEQa4ycTbRH5bpQRwBDwfXQlAjEIsQNShi4UmiVDOHMfMls_amgCNqCUv4NXdRnTpEELfVk1AkZfXUMsNwSVGc0%3D", "showing": [{"time": ["6:20 pm", "9:05 pm"], "type": "Standard"}]}, {"name": "Black Panther: Wakanda Forever", "link": "https://www.google.com/search?hl=en&gl=us&q=Black+Panther:+Wakanda+Forever&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukMKMZchWWL0YHp1Zm-Y8_xsLf-LbygtUg4c1YUnQaYMMahbZQE-DTXjnE7WIXteL8R2y4NOj0bN1qe_13rGO4jZNIkPYsEV0jxvqt7W8k2Eh4UzNQT6iC_6lS4Dcsp58Hd6O4lw%3D&sa=X&ved=2ahUKEwiWx9Onz_z7AhVkQzABHerCBxwQxyZ6BAgYEDs", "showing": [{"time": ["7:35 pm", "11:20 pm"], "type": "Standard"}]}]
+[
+    {
+        "name": "Avatar: The Way of Water",
+        "link": "https://www.google.com/search?q=Avatar:+The+Way+of+Water&si=AC1wQDCHMNb11Be-qDAVcFX0l-0KTBmShF1fPy2iMfje2H81obB3AnNANbLYGbEVe4OtBIUmDVXNsduczSPx8frfBoCmoryeOK0W9WxlFgp0-uEpFbJpgwrchRf-s5GsKcmiHdujRlaKZluw5Ou2-Ye1umAHl3EqmIJabBXw6KP53wzkveA472U%3D&sa=X&ved=2ahUKEwiLhbzcxv37AhXCp3IEHT0jBSYQxyZ6BAgYEBM",
+        "showing": [
+            {
+                "time": [
+                    "9:35 am",
+                    "11:45 am",
+                    "12:35 pm",
+                    "1:50 pm",
+                    "3:45 pm",
+                    "4:00 pm",
+                    "4:50 pm",
+                    "6:05 pm",
+                    "8:00 pm",
+                    "8:15 pm",
+                    "9:05 pm",
+                    "10:20 pm"
+                ],
+                "type": "Standard"
+            },
+            {
+                "time": [
+                    "10:30 am",
+                    "2:45 pm",
+                    "7:00 pm",
+                    "11:15 pm"
+                ],
+                "type": "IMAX 3D"
+            },
+            {
+                "time": [
+                    "9:10 am",
+                    "10:00 am",
+                    "10:45 am",
+                    "11:20 am",
+                    "12:10 pm",
+                    "1:25 pm",
+                    "2:15 pm",
+                    "3:00 pm",
+                    "3:35 pm",
+                    "4:25 pm",
+                    "5:40 pm",
+                    "6:30 pm",
+                    "7:15 pm",
+                    "7:50 pm",
+                    "8:40 pm",
+                    "9:55 pm",
+                    "10:45 pm"
+                ],
+                "type": "3D"
+            },
+            {
+                "time": [
+                    "8:45 am",
+                    "1:00 pm",
+                    "5:15 pm",
+                    "9:30 pm"
+                ],
+                "type": "3D DBOX"
+            },
+            {
+                "time": [
+                    "10:55 am",
+                    "3:10 pm",
+                    "7:25 pm",
+                    "11:40 pm"
+                ],
+                "type": "DBOX"
+            }
+        ]
+    },
+    {
+        "name": "The Menu",
+        "link": "https://www.google.com/search?q=The+Menu&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukPJ7Oz3WZEDpKjcC3cHAWS8lBRqvm2YXMqomUe2JXpJPyNeFaxuOzbWQptPhOldReZnqDtXOMhev6zeM4lHHuSGG-uJwUQycFcX9-Kijllb8-0s4FPgefIkD5o8Z6ugwdu8PfUY%3D",
+        "showing": [
+            {
+                "time": [
+                    "10:50 am",
+                    "1:35 pm",
+                    "4:20 pm",
+                    "7:10 pm",
+                    "10:00 pm",
+                    "11:25 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Strange World",
+        "link": "https://www.google.com/search?q=Strange+World&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukHBVaZngomj5V8u0KBxgy2ljRmux8ZG-tNSmKw_4XRNPhIxCTEQa4ycTbRH5bpQRwBDwfXQlAjEIsQNShi4UmiVDOHMfMls_amgCNqCUv4NXdRnTpEELfVk1AkZfXUMsNwSVGc0%3D",
+        "showing": [
+            {
+                "time": [
+                    "9:00 am",
+                    "10:10 am",
+                    "1:30 pm",
+                    "3:40 pm",
+                    "6:20 pm",
+                    "9:00 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Violent Night",
+        "link": "https://www.google.com/search?q=Violent+Night&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukGB685d0MQDKFqujad3T9n6Bq8vvH6YvdwZ5_QwEyQhGb1AmOCRlTJBLqCt5l7Hm5_EYvAmxxIeiMlyWxlsK1sTpprR9ONGGIXDteERub8PHkjIzVI2ueTN7BtHYqGVkGFlE7bI%3D&sa=X&ved=2ahUKEwiLhbzcxv37AhXCp3IEHT0jBSYQxyZ6BAgYEEM",
+        "showing": [
+            {
+                "time": [
+                    "10:05 am",
+                    "12:55 pm",
+                    "4:55 pm",
+                    "7:45 pm",
+                    "10:35 pm",
+                    "11:45 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Empire Of Light",
+        "link": "https://www.google.com/search?q=Empire+Of+Light&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukOrqTmjjJKF-P8QauX-bXSt-WncEh7sGXqr2I_1Ba65XykF1EY6XYnpUDAIKRdSfOVe6HMA7wj_K6uUJeenRx9Dx3ImzgXJiZcC2ZsDxLGMV3C-4uILFJvR_KHX2KqU7IgCmz-M%3D",
+        "showing": [
+            {
+                "time": [
+                    "10:15 am",
+                    "1:05 pm",
+                    "3:55 pm",
+                    "6:45 pm",
+                    "9:35 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Devotion",
+        "link": "https://www.google.com/search?q=Devotion&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukB0yXJ5edfYcRvosWmE6RfHbiy5ebquiFAEc0nwRKLwpJydm6-hhZFq_dONCXxjg3FY1EMpQh97HyeCKMDdcYPF2zl7iJcjGTxZIyvjGJbUdSB3C1U0gUWKDbeEVcG28V-M_PLQ%3D",
+        "showing": [
+            {
+                "time": [
+                    "9:15 am",
+                    "12:30 pm",
+                    "3:50 pm",
+                    "7:05 pm",
+                    "10:10 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Black Panther: Wakanda Forever",
+        "link": "https://www.google.com/search?q=Black+Panther:+Wakanda+Forever&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukMKMZchWWL0YHp1Zm-Y8_xsLf-LbygtUg4c1YUnQaYMMahbZQE-DTXjnE7WIXteL8R2y4NOj0bN1qe_13rGO4jZNIkPYsEV0jxvqt7W8k2Eh4UzNQT6iC_6lS4Dcsp58Hd6O4lw%3D&sa=X&ved=2ahUKEwiLhbzcxv37AhXCp3IEHT0jBSYQxyZ6BAgYEEw",
+        "showing": [
+            {
+                "time": [
+                    "8:50 am",
+                    "11:15 am",
+                    "2:55 pm",
+                    "6:35 pm",
+                    "10:15 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Spirited Sing-A-Long",
+        "link": "https://www.google.com/search?q=Spirited+Sing-A-Long&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukPqZGARfRYS4r0RsTzh5axjJzIE-lCbW3GU_Yq0vq8kBzT4pcpxUDI9Kck-bMcEGClZUv6TV4bJL2vtcm6DnhZ2YJR43ssHfb93SOFdZOQ1cRIobkcYZ5NwGSsjJVWFDCgWZCfc%3D",
+        "showing": [
+            {
+                "time": [
+                    "9:20 am",
+                    "12:25 pm",
+                    "3:30 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Spoiler Alert",
+        "link": "https://www.google.com/search?q=Spoiler+Alert&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukHXIfWIZqU0_nr3uqIfclNUgoKA3ixYiD8hAtlEiNNkqr-nCxMfRRukgGC6Y03-8lUf7234-OS2OSALe4hPA6PqwloXbFnq6XIhWaz3rRYK909GMUBdBUAtXEgSjbRnWue752Mk%3D",
+        "showing": [
+            {
+                "time": [
+                    "10:40 am",
+                    "12:50 pm",
+                    "7:20 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Bones and All",
+        "link": "https://www.google.com/search?q=Bones+and+All&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukDX4XXekTcHstyntZ8luAh2MlDmTjCFdAPp-44xWAjUkgvv7AWIGSs1ALUwsetR9VInzuyV8j0HZKTZxT42XA6LkXTRVei22ZFZ4_1w9YFhU_IAmVHtLjohts-PMXOQ7NFXq4Lo%3D",
+        "showing": [
+            {
+                "time": [
+                    "4:10 pm",
+                    "10:25 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Black Adam",
+        "link": "https://www.google.com/search?q=Black+Adam&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukBCCJsHloRuprkCBAXPUiBK6MC_ylW0XSi0UqFLIsDpWbcFjQuP9NR77-3u5xMJ9MyB-SvImkj0RnWxEXDRsCy5QT395MoJVggIDwF9HpdXuOxRC24-WK2U-woBn4EUyGvdGO3o%3D",
+        "showing": [
+            {
+                "time": [
+                    "6:40 pm",
+                    "9:45 pm"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Elf",
+        "link": "https://www.google.com/search?q=Elf&si=AC1wQDCYgCyg8oGv73wn0z7FYjYf0wM1VX7dZB7ctcQ4L2hw0N-xBhBBcmNpjezu31KrvQsIOWPdXXPyGUuUF9PMu28XZMxx6Wgh3hjfYApKxcsD3zcPzUsiT6f9EzC1pKmaQLZXkOAop81F0ErMCys7tftnzC3GnhLDubBK13hQ3NqCkWJT2s4%3D",
+        "showing": [
+            {
+                "time": [
+                    "9:45 am"
+                ],
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "name": "Lyle, Lyle, Crocodile",
+        "link": "https://www.google.com/search?q=Lyle,+Lyle,+Crocodile&si=AC1wQDCXpOaZF5ovPU-h5uUrt-I9UWhla_fLFzIc9PquvpKukNYu0FUVJRtfmdaXFjC6jQJBlrrHYO3UBU29v076ZGgKZl6AnYLFOZ2Ek6N1JN5sT5i7iCUT0bM-Bcz5urLj5IMuSkRwhqKm1uGv8TKcNBBuoLSxos-uiQ55p3aOyWprW9G7q_4%3D",
+        "showing": [
+            {
+                "time": [
+                    "9:25 am"
+                ],
+                "type": "Standard"
+            }
+        ]
+    }
+]

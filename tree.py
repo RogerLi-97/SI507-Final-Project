@@ -153,12 +153,3 @@ def load_tree():
         tree = MovieTree()
     return tree
 
-
-if __name__ == "__main__":
-    cache_dict = open_cache('showtimes_cache.json')
-    movie_tree = build_tree(
-        cache_dict['Ann Arbor 20 IMAX']['showtimes'][0]['movies'])
-    movie_tree.print_tree()
-    save_tree(movie_tree)
-    movie_tree = load_tree()
-    movie_tree.print_tree()

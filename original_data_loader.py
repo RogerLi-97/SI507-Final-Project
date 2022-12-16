@@ -199,7 +199,3 @@ def query_showing_movies_by_theater(name=DEFAULT_THEATER, location=DEFAULT_LOACT
 
     return result
 
-
-if __name__ == "__main__":
-    # 1. preload data
-    preload_data()
