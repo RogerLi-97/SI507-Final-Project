@@ -5,22 +5,23 @@
 # This file provides necessary function to preload raw data from corresponding API
 # and caching the processed data.
 import requests
-from serpapi import GoogleSearch
+import datetime
 from cache_tools import *
+import secret
 
 
 # API_KEYS
 # 1. Flixster API
-X_RAPID_API_KEY = '015889f2c5msh27f6937c5221cd7p1f2b8bjsn3741abf6e30b'
+X_RAPID_API_KEY = secret.X_RAPID_API_KEY
 X_RAPID_API_HOST = 'flixster.p.rapidapi.com'
 FLIXSTER_BASE_URL = 'https://flixster.p.rapidapi.com/movies'
 
 # 2. Open Movie Database API
-OPEN_MOVIE_API_KEY = '6567ad1a'
+OPEN_MOVIE_API_KEY = secret.OPEN_MOVIE_API_KEY
 OPEN_MOVIE_BASE_URL = 'http://www.omdbapi.com'
 
 # 3. Google Showtimes Results API
-GOOGLE_SHOWTIMES_API_KEY = 'fc5bcfcba1ba52e8ce0627c2ba60cd07f8088e549308b9b84aadb6f70fb036bc'
+GOOGLE_SHOWTIMES_API_KEY = secret.GOOGLE_SHOWTIMES_API_KEY
 GOOGLE_SHOWTIMES_BASE_URL = 'https://serpapi.com/search.json'
 
 
@@ -161,8 +162,8 @@ def query_showing_movies_by_theater(name=DEFAULT_THEATER, location=DEFAULT_LOACT
     
     Returns
     -------
-    result: dict
-        json object
+    result: list
+        list of movie dict
     '''
     params = {
         'q': name,
@@ -173,25 +174,32 @@ def query_showing_movies_by_theater(name=DEFAULT_THEATER, location=DEFAULT_LOACT
     }
 
     file_name = 'showtimes_cache.json'
+
     # show time data need to be updated everyday
-    return loadData(file_name, GOOGLE_SHOWTIMES_BASE_URL, params=params, key=name)
+    result = loadData(file_name, GOOGLE_SHOWTIMES_BASE_URL, params=params, key=name)
+    # Check update time
+    try:
+        update_time = result['update_time']
+    except:
+        # first time request
+        cache_dict = open_cache(file_name)
+        cache_dict[name]['update_time'] = datetime.datetime.now().strftime("%x")
+        save_cache(cache_dict, file_name)
+        return result['showtimes'][0]['movies'] # only return showtime result for today
+
+    # update data if necessary
+    if update_time != datetime.datetime.now().strftime("%x"):
+        cache_dict = open_cache(file_name)
+        cache_dict[name] = requests.get(GOOGLE_SHOWTIMES_BASE_URL, params=params).json()
+        cache_dict[name]['update_time'] = datetime.datetime.now().strftime("%x")
+        save_cache(cache_dict, file_name)
+        result = cache_dict[name]['showtimes'][0]['movies']
+    else:
+        result = result['showtimes'][0]['movies']
+
+    return result
 
 
-
-# from serpapi import GoogleSearch
-
-# params = {
-#   "q": "theater",
-#   "location": "Ann Arbor, Michigan, United States",
-#   "hl": "en",
-#   "gl": "us",
-#   "api_key": SERP_API_KEY
-# }
-
-# search = GoogleSearch(params)
-# results = search.get_dict()
-# showtimes = results["showtimes"]
-# print(showtimes)
 if __name__ == "__main__":
     # 1. preload data
     preload_data()
